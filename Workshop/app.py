@@ -76,7 +76,7 @@ if st.button("Run", key="archivefile_button"):
         st.line_chart(df, x="dateFrom", y="uncompressedFileSize")
 
 
-#with st.sidebar: # Sidebar content 
-#    st.title("Oceans 3.0 Open API Playground") # Sidebar title
-#    st.write("This is a simple Streamlit app to interact with the Oceans 3.0 Open API.") # Sidebar description
-#    st.write("Enter your parameters and click 'Run' to see the results.") # Sidebar instructions
+with st.sidebar: # Sidebar content 
+    st.title("Oceans 3.0 Open API Playground") # Sidebar title
+    st.write("This is a simple Streamlit app to interact with the Oceans 3.0 Open API.") # Sidebar description
+    st.write("Enter your parameters and click 'Run' to see the results.") # Sidebar instructions
